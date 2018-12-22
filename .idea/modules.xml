@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Tycoon.iml" filepath="$PROJECT_DIR$/.idea/Tycoon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tycooncolls.iml" filepath="$PROJECT_DIR$/.idea/tycooncolls.iml" />
     </modules>
   </component>
 </project>
