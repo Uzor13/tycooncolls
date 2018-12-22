@@ -6,8 +6,8 @@
     margin: 0;
     padding: 0;
 }
-p, li, input[placeholder] {
-    font-family: 'Thasadith', sans-serif;
+p, li, input[placeholder], span {
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
 h1, h2, h3, h4, h5 {
@@ -84,7 +84,88 @@ input[placeholder] {
     font-size: 1em;
     font-weight: bold;
 }
+.content-header__dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 19px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.fa-chevron-down {
+    font-weight: lighter;
+    margin-left: 4px;
+    margin-top: 7px;
+}
+.content-header__dropdown-content {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: medium;
+    border-top: 2px solid #005cbf;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.2);
+    -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.2);
+}
+.content-header__cart  i{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.content-header__cart span {
+    font-weight: 600;
+}
+.navbar__bg {
+    background-color: #005cbf;
+}
 
+.fa-user-o, .fa-user-plus, .fa-check, .fa-lock, .fa-motorcycle, .fa-heart-o {
+    color: #005cbf;
+    padding-right: 10px;
+}
+.content-header__dropdown:hover .content-header__dropdown-content {
+    display: block;
+}
+.content-header__dropdown-content p, a {
+    color: #1b1e21;
+}
+.content-header__dropdown-content p, a:hover {
+    color: #005cbf;
+    text-decoration: none;
+}
+.navbar__category__container {
+    margin-left: 90px;
+}
+.fa-bars {
+    margin-left: 70px;
+    color: white;
+}
+.navbar__dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+
+}
+.navbar__dropdown-content {
+    display: none;
+    min-width: 200px;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: medium;
+    border: 1px solid #6c757d;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.2);
+    -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.2);
+}
+.navbar__dropdown:hover .navbar__dropdown-content {
+    display: block;
+}
+.navbar__list  li a {
+    color: white!important;
+}
 @media (min-width: 320px) and (max-width: 480px){
 
 }
