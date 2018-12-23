@@ -4,7 +4,9 @@
     <list default="true" id="568c14a5-46af-4dcf-9046-db6fde077a41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,24 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="107" column="90" selection-start-line="107" selection-start-column="90" selection-end-line="107" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Design/site/docs/4.1/components/carousel.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="1099">
-                <caret line="151" column="6" lean-forward="true" selection-start-line="151" selection-start-column="6" selection-end-line="151" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="350">
+              <caret line="152" column="99" selection-start-line="152" selection-start-column="99" selection-end-line="152" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -42,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
+            <state relative-caret-position="416">
+              <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -54,7 +44,24 @@
     <findStrings>
       <find>show-on-click</find>
       <find>link</find>
+      <find>rating</find>
+      <find>data-</find>
+      <find>icon</find>
+      <find>icon-header-noti</find>
+      <find>modal</find>
+      <find>cd-</find>
+      <find>cd-dropdown-wrapper</find>
+      <find>cd-dropdown</find>
+      <find>cd</find>
+      <find>raised</find>
     </findStrings>
+    <replaceStrings>
+      <replace>navbar__dropdown-wrapper</replace>
+      <replace>navbar__dropdown-trigger</replace>
+      <replace>navbar__dropdown</replace>
+      <replace>navbar__hassubs</replace>
+      <replace>navbar</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +69,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$USER_HOME$/Downloads/cozastore/css/main.css" />
+        <option value="$PROJECT_DIR$/../Material/assets/css/material-kit.min.css" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -122,24 +131,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545436594007</updated>
-      <workItem from="1545436602926" duration="19319000" />
+      <workItem from="1545436602926" duration="19823000" />
+      <workItem from="1545574294868" duration="18977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19319000" />
+    <option name="totallyTimeSpent" value="38800000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -147,6 +153,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32872504" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -179,6 +189,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -244,27 +268,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+    <entry file="file://$PROJECT_DIR$/css/metro-all.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
+        <state relative-caret-position="181">
+          <caret column="622944" selection-start-column="622938" selection-end-column="622944" />
+          <folding>
+            <element signature="e#427829#429872#1" expanded="true" />
+            <element signature="e#537744#538175#2" expanded="true" />
+            <element signature="e#538226#538605#2" expanded="true" />
+            <element signature="e#538657#539049#2" expanded="true" />
+            <element signature="e#539100#539473#2" expanded="true" />
+            <element signature="e#539524#540408#2" expanded="true" />
+            <element signature="e#540465#541439#2" expanded="true" />
+            <element signature="e#541499#542777#2" expanded="true" />
+            <element signature="e#542835#544441#2" expanded="true" />
+            <element signature="e#544495#545200#2" expanded="true" />
+            <element signature="e#545253#545961#2" expanded="true" />
+            <element signature="e#546016#546468#2" expanded="true" />
+            <element signature="e#546519#546918#2" expanded="true" />
+            <element signature="e#546969#547365#2" expanded="true" />
+            <element signature="e#547417#547828#2" expanded="true" />
+            <element signature="e#547879#548302#2" expanded="true" />
+            <element signature="e#548356#548761#2" expanded="true" />
+            <element signature="e#548816#549213#2" expanded="true" />
+            <element signature="e#549265#550164#2" expanded="true" />
+            <element signature="e#550220#551165#2" expanded="true" />
+            <element signature="e#551217#551610#2" expanded="true" />
+            <element signature="e#551664#552331#2" expanded="true" />
+            <element signature="e#552384#553412#2" expanded="true" />
+            <element signature="e#553768#554177#2" expanded="true" />
+            <element signature="e#554234#554590#2" expanded="true" />
+            <element signature="e#554648#555017#2" expanded="true" />
+            <element signature="e#555074#555424#2" expanded="true" />
+            <element signature="e#555481#556320#2" expanded="true" />
+            <element signature="e#556383#557313#2" expanded="true" />
+            <element signature="e#557379#558613#2" expanded="true" />
+            <element signature="e#558677#560239#2" expanded="true" />
+            <element signature="e#560299#560916#2" expanded="true" />
+            <element signature="e#560975#561595#2" expanded="true" />
+            <element signature="e#561656#562086#2" expanded="true" />
+            <element signature="e#562143#562519#2" expanded="true" />
+            <element signature="e#562576#562945#2" expanded="true" />
+            <element signature="e#563003#563392#2" expanded="true" />
+            <element signature="e#563449#563850#2" expanded="true" />
+            <element signature="e#563910#564292#2" expanded="true" />
+            <element signature="e#564353#564728#2" expanded="true" />
+            <element signature="e#564786#565662#2" expanded="true" />
+            <element signature="e#565724#566647#2" expanded="true" />
+            <element signature="e#566705#567076#2" expanded="true" />
+            <element signature="e#567136#567781#2" expanded="true" />
+            <element signature="e#567840#568846#2" expanded="true" />
+            <element signature="e#785998#786381#2" expanded="true" />
+            <element signature="e#786424#787095#2" expanded="true" />
+            <element signature="e#787139#787809#2" expanded="true" />
+            <element signature="e#787846#789083#2" expanded="true" />
+            <element signature="e#789122#789876#2" expanded="true" />
+            <element signature="e#789914#791236#2" expanded="true" />
+            <element signature="e#791272#792271#2" expanded="true" />
+            <element signature="e#792308#792717#2" expanded="true" />
+            <element signature="e#792754#793110#2" expanded="true" />
+            <element signature="e#793148#793517#2" expanded="true" />
+            <element signature="e#793554#793904#2" expanded="true" />
+            <element signature="e#793941#794780#2" expanded="true" />
+            <element signature="e#794823#795753#2" expanded="true" />
+            <element signature="e#795799#797033#2" expanded="true" />
+            <element signature="e#797077#798639#2" expanded="true" />
+            <element signature="e#798679#799296#2" expanded="true" />
+            <element signature="e#799335#799955#2" expanded="true" />
+            <element signature="e#799996#800426#2" expanded="true" />
+            <element signature="e#800463#800839#2" expanded="true" />
+            <element signature="e#800876#801245#2" expanded="true" />
+            <element signature="e#801283#801672#2" expanded="true" />
+            <element signature="e#801709#802110#2" expanded="true" />
+            <element signature="e#802150#802532#2" expanded="true" />
+            <element signature="e#802573#802948#2" expanded="true" />
+            <element signature="e#802986#803862#2" expanded="true" />
+            <element signature="e#803904#804827#2" expanded="true" />
+            <element signature="e#804865#805236#2" expanded="true" />
+            <element signature="e#805276#805921#2" expanded="true" />
+            <element signature="e#805960#806966#2" expanded="true" />
+            <element signature="e#807007#807569#2" expanded="true" />
+            <element signature="e#807607#808198#2" expanded="true" />
+            <element signature="e#808235#808618#2" expanded="true" />
+            <element signature="e#808655#809330#2" expanded="true" />
+            <element signature="e#809368#809892#2" expanded="true" />
+            <element signature="e#809931#810488#2" expanded="true" />
+            <element signature="e#810527#811179#2" expanded="true" />
+            <element signature="e#811224#811688#2" expanded="true" />
+            <element signature="e#811734#812204#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/metro.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="6" column="5281" selection-start-line="6" selection-start-column="5276" selection-end-line="6" selection-end-column="5281" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Frameworks/slick-1.8.1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="308" column="12" lean-forward="true" selection-start-line="288" selection-start-column="1" selection-end-line="308" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Design/site/docs/4.1/components/carousel.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1099">
-            <caret line="151" column="6" lean-forward="true" selection-start-line="151" selection-start-column="6" selection-end-line="151" selection-end-column="6" />
+          <first_editor relative-caret-position="523">
+            <caret line="112" selection-start-line="112" selection-end-line="151" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/cozastore/css/util.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73382">
+          <caret line="860" column="56" selection-start-line="860" selection-start-column="56" selection-end-line="860" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/cozastore/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="517" column="7" selection-start-line="517" selection-start-column="2" selection-end-line="517" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/cozastore/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10740" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/mega-dropdown-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5079">
+          <caret line="270" lean-forward="true" selection-start-line="270" selection-end-line="270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/mega-dropdown-master/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/mega-dropdown-master/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4379">
+          <caret line="152" column="15" lean-forward="true" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Material/assets/css/material-kit.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="251600" lean-forward="true" selection-start-line="13" selection-start-column="251527" selection-end-line="13" selection-end-column="251600" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="107" column="90" selection-start-line="107" selection-start-column="90" selection-end-line="107" selection-end-column="90" />
+        <state relative-caret-position="350">
+          <caret line="152" column="99" selection-start-line="152" selection-start-column="99" selection-end-line="152" selection-end-column="99" />
         </state>
       </provider>
     </entry>

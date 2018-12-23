@@ -13,6 +13,9 @@ p, li, input[placeholder], span {
 h1, h2, h3, h4, h5 {
     font-family: 'Raleway', sans-serif;
 }
+.raised {
+    box-shadow:0 5px 15px -8px rgba(0,0,0,.24),0 8px 10px -5px rgba(0,0,0,.2);
+}
 .pre-header {
     height: 35px;
     width: 100%;
@@ -145,7 +148,6 @@ input[placeholder] {
     position: relative;
     display: inline-block;
     color: white;
-
 }
 .navbar__dropdown-content {
     display: none;
@@ -165,6 +167,50 @@ input[placeholder] {
 }
 .navbar__list  li a {
     color: white!important;
+}
+.carousel__title {
+    color: #1b1e21;
+    margin-top: -250px;
+    font-weight: 800;
+}
+.description__section__image {
+    margin-top: 70px;
+}
+.section__image1__hover {
+    position: relative;
+}
+.section__image1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 90%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.section__image1__hover:hover .section__image1 {
+    opacity: 0.3;
+}
+.section__image1__hover:hover .middle {
+    opacity: 1;
+}
+.text {
+    color: #005cbf;
+    font-size: 1.3em;
+    padding: 1em 2em;
+}
+.heading__text {
+    position: absolute;
+    top: 0;
+    color: #FFFFFF;
 }
 @media (min-width: 320px) and (max-width: 480px){
 

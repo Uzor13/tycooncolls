@@ -42,8 +42,7 @@
                 <h3 class="content-header__logo">Tycoon</h3>
                 <input type="search" class="content-header__search" placeholder="Search for products or enter a keyword">
                 <span><button class="content-header__searchbtn">SEARCH</button></span>
-                <div class="content-header__dropdown">
-                    <span>My Account<i class="fa fa-chevron-down"></i></span>
+                    <span class="content-header__dropdown">My Account<i class="fa fa-chevron-down"></i></span>
                     <div class="content-header__dropdown-content">
                         <p><i class="fa fa-heart-o "></i> <a href="#">MY WISHLIST</a></p>
                         <p ><i class="fa fa-user-o"></i> <a href="#">MY ACCOUNT</a></p>
@@ -52,11 +51,11 @@
                         <p ><i class="fa fa-lock"></i> <a href="#">LOG IN</a></p>
                         <p ><i class="fa fa-user-plus"></i> <a href="#">CREATE AN ACCOUNT</a></p>
                     </div>
-                </div>
+
                 <div class="content-header__cart">
                    <i class="fa fa-shopping-cart fa-2x"></i><span>  Cart</span>
                 </div>
-            </div>
+        </div>
         </div>
     </header>
     <nav class="navbar navbar-expand-lg navbar__bg shadow">
@@ -64,14 +63,16 @@
             <div class="navbar__category__container">
                 <div class="navbar__dropdown">
                 <span>CATEGORIES <i class="fa fa-bars"></i></span>
-                    <div class="navbar__dropdown-content">
-                        <p><a href="#">MEN</a></p>
-                        <p ><a href="#">WOMEN</a></p>
-                        <p ><a href="#">ACCESSORIES</a></p>
-                        <p ><a href="#">SHOES</a></p>
-                        <p ><a href="#">ELECTRONICS</a></p>
-                        <p > <a href="#">BEAUTY</a></p>
-                    </div>
+                <div class="navbar__dropdown-content">
+                    <p> <a href="#">MEN</a></p>
+                    <p > <a href="#">WOMEN</a></p>
+                    <p > <a href="#">ACCESSORIES</a></p>
+                    <p ><a href="#">SHOES</a></p>
+                    <p > <a href="#">HOME APPLIANCES</a></p>
+                    <p ><a href="#">GADGETS</a></p>
+                </div>
+                </div>
+            </div>
                 </div>
             </div>
             <ul class="m-auto navbar-nav navbar__list">
@@ -81,7 +82,9 @@
                 <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
             </ul>
         </div>
+        </div>
     </nav>
+
     <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -91,23 +94,23 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 " src="assets/img/banner01.jpg" height="400"  alt="First slide">
+                    <img class="d-block w-100" src="assets/img/banner01.jpg" height="500" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
+                        <h1 class="carousel__title">BIG SALES 10% OFF</h1>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/img/banner02.jpg" height="400"  alt="Second slide">
+                    <img class="d-block w-100" src="assets/img/banner02.jpg" height="500" alt="Second slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
+                        <h1 class="carousel__title">NEW DEALS AVAILABLE</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/img/banner03.jpg" height="400"  alt="Third slide">
+                    <img class="d-block w-100" src="assets/img/banner03.jpg" height="500" alt="Third slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
+                        <h1 class="carousel__title">Third slide label</h1>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </div>
                 </div>
@@ -122,7 +125,57 @@
             </a>
         </div>
     </div>
-
+    <section class="description__section__image">
+        <div class="container">
+             <div class="row">
+                 <div class="col-md-4">
+                     <div class="section__image1__hover">
+                         <img src="assets/img/banner10.jpg" class="img-fluid shadow section__image1 raised"  alt="">
+                         <div class="middle">
+                             <div class="text">
+                                <p class="animated slideInUp">Shop Now</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                     <div class="section__image1__hover">
+                         <img src="assets/img/banner11.jpg" class="img-fluid section__image1 raised"  alt="">
+                         <div class="middle">
+                             <div class="text">
+                                 <p class="animated slideInUp">Shop Now</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                     <div class="section__image1__hover">
+                         <img src="assets/img/banner12.jpg" class="img-fluid section__image1 raised"  alt="">
+                         <div class="heading__text">
+                             <h3>WOMEN CLOTHES</h3>
+                         </div>
+                         <div class="middle">
+                             <div class="heading__text">
+                                 <h3>WOMEN CLOTHES</h3>
+                             </div>
+                             <div class="text">
+                                 <p class="animated slideInUp">Shop Now</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </div>
+    </section>
+    <section class="new-deals__section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>HOT DEALS OF THE DAY</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <div class="scripts">
 <script src="assets/js/jquery.min.js"></script>
@@ -132,5 +185,9 @@
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/typed.min.js"></script>
 </div>
+<script>
+
+    new WOW().init();
+</script>
 </body>
 </html>
