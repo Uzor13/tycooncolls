@@ -29,6 +29,7 @@
   <title>Tycoon Collection | Home</title>
 </head>
 <body>
+<!-- Pre-Header-->
     <header class="pre-header">
          <ul class="pre-header__list">
              <li class="pre-header__wel hvr-bounce-in">Welcome to Tycoon Collections!!</li>
@@ -36,13 +37,15 @@
              <li class="pre-header__assist"><a href="#">Need Assistance?</a></li>
          </ul>
     </header>
+    <!-- Search Box Container -->
     <header class="content-header">
         <div class="container">
             <div class="row">
                 <h3 class="content-header__logo">Tycoon</h3>
                 <input type="search" class="content-header__search" placeholder="Search for products or enter a keyword">
                 <span><button class="content-header__searchbtn">SEARCH</button></span>
-                    <span class="content-header__dropdown">My Account<i class="fa fa-chevron-down"></i></span>
+                <div class="content-header__dropdown">
+                    <span>My Account<i class="fa fa-chevron-down"></i></span>
                     <div class="content-header__dropdown-content">
                         <p><i class="fa fa-heart-o "></i> <a href="#">MY WISHLIST</a></p>
                         <p ><i class="fa fa-user-o"></i> <a href="#">MY ACCOUNT</a></p>
@@ -51,15 +54,17 @@
                         <p ><i class="fa fa-lock"></i> <a href="#">LOG IN</a></p>
                         <p ><i class="fa fa-user-plus"></i> <a href="#">CREATE AN ACCOUNT</a></p>
                     </div>
-
+                </div>
                 <div class="content-header__cart">
                    <i class="fa fa-shopping-cart fa-2x"></i><span>  Cart</span>
                 </div>
         </div>
         </div>
+        <!-- Navigation Starts -->
     </header>
     <nav class="navbar navbar-expand-lg navbar__bg shadow">
         <div class="container">
+            <div class="row">
             <div class="navbar__category__container">
                 <div class="navbar__dropdown">
                 <span>CATEGORIES <i class="fa fa-bars"></i></span>
@@ -73,8 +78,7 @@
                 </div>
                 </div>
             </div>
-                </div>
-            </div>
+
             <ul class="m-auto navbar-nav navbar__list">
                 <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
@@ -84,6 +88,7 @@
         </div>
         </div>
     </nav>
+    <!--Navigation Ends -->
 
     <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
@@ -125,52 +130,76 @@
             </a>
         </div>
     </div>
-    <section class="description__section__image">
-        <div class="container">
-             <div class="row">
-                 <div class="col-md-4">
-                     <div class="section__image1__hover">
-                         <img src="assets/img/banner10.jpg" class="img-fluid shadow section__image1 raised"  alt="">
-                         <div class="middle">
-                             <div class="text">
-                                <p class="animated slideInUp">Shop Now</p>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-4">
-                     <div class="section__image1__hover">
-                         <img src="assets/img/banner11.jpg" class="img-fluid section__image1 raised"  alt="">
-                         <div class="middle">
-                             <div class="text">
-                                 <p class="animated slideInUp">Shop Now</p>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-4">
-                     <div class="section__image1__hover">
-                         <img src="assets/img/banner12.jpg" class="img-fluid section__image1 raised"  alt="">
-                         <div class="heading__text">
-                             <h3>WOMEN CLOTHES</h3>
-                         </div>
-                         <div class="middle">
-                             <div class="heading__text">
-                                 <h3>WOMEN CLOTHES</h3>
-                             </div>
-                             <div class="text">
-                                 <p class="animated slideInUp">Shop Now</p>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-        </div>
+    <section class="description__section">
+        <article class="container">
+            <div class="row">
+                <div class="description card-raised ml-md-1 ml-lg-3 mr-lg-4 mr-md-3">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="description__item d-flex flex-row align-items-center justify-content-start">
+                            <i class="fa fa-truck fa-4x description__icon"></i>
+                            <div class="description__section__content">
+                                <div class="description__card-text">
+                                    Fast Delivery
+                                </div>
+                                <div class="description__sub">
+                                    1 to 2 Days
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="description card-raised ml-md-3 mr-lg-4 mr-md-3">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="description__item d-flex flex-row align-items-center justify-content-start">
+                            <i class="fa fa-refresh fa-4x description__icon"></i>
+                            <div class="description__section__content">
+                                <div class="description__card-text">
+                                    Returns Allowed
+                                </div>
+                                <div class="description__sub">
+                                    1 Week Return Window
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="description card-raised mr-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="description__item d-flex flex-row align-items-center justify-content-start">
+                            <i class="fa fa-money fa-4x description__icon"></i>
+                            <div class="description__section__content">
+                                <div class="description__card-text">
+                                    Payment On Delivery
+                                </div>
+                                <div class="description__sub">
+                                    See Products Before Paying
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="description card-raised ">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="description__item d-flex flex-row align-items-center justify-content-start">
+                            <i class="fa fa-tag fa-4x description__icon"></i>
+                            <div class="description__section__content">
+                                <div class="description__card-text">
+                                    Quality Products
+                                </div>
+                                <div class="description__sub">
+                                    From N500
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
     </section>
-    <section class="new-deals__section mt-5">
+    <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 mt-md-5 mt-lg-5">
                     <h2>HOT DEALS OF THE DAY</h2>
                 </div>
             </div>
@@ -183,6 +212,7 @@
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/owl.carousel.js"></script>
 <script src="assets/js/wow.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
 <script src="assets/js/typed.min.js"></script>
 </div>
 <script>
