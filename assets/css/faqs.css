@@ -1,0 +1,73 @@
+.fa-headset {
+    margin-left: 100px;
+}
+.fa-comment-alt {
+    margin-left: 100px;
+}
+.fa-envelope-open-text {
+    margin-left: 100px;
+}
+.faq__accordion {
+    margin-top: 80px;
+}
+.accordion {
+    background: linear-gradient(to bottom right, white, #878787);
+    max-width: 1000px;
+    background: white;
+    box-shadow:0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12),0 5px 5px -3px rgba(0,0,0,.2);
+    margin: 30px auto 0;
+}
+
+.accordion-header {
+    border-bottom: 1px solid rgba(156, 159, 165, 0.46);
+    color: #2a313a;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 1.5rem;
+    transition: background-color .5s ease, color .5s ease;
+}
+
+.accordion-header:hover {
+    background-color: #005cbf;
+    color: white;
+}
+
+.accordion-content {
+    display: none;
+    border-bottom: 1px solid #DDE0E7;
+    background: #cecfd1;
+    padding: 1.5rem;
+    color: #4a5666;
+}
+
+.accordion-header::before {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    width: .75rem;
+    height: .75rem;
+    border-radius: 50%;
+    background-color: #9ea2ab;
+    margin-right: .75rem;
+}
+
+.active.accordion-header::before {
+    background-color: #78fc79;
+}
+footer {
+    background-color: #E8e8e8;
+    margin-top: 40px;
+}
+@media (min-width: 320px) and (max-width: 480px){
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+

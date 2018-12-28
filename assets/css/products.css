@@ -276,11 +276,8 @@ option:hover {
 .fa-heart:hover {
     color: #005cbf;
 }
-.footer__product {
-    margin-top: 20px;
-    min-height: 400px;
+footer {
     background-color: rgba(217, 218, 214, 0.37);
-    clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);
 }
 address {
     color: rgba(0, 0, 0, 0.52);
@@ -288,4 +285,7 @@ address {
 }
 .footer__tel{
     color: #005cbf;
+}
+.footer__issues {
+    z-index: 99999;
 }

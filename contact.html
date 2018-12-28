@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FrameWork Stylesheet-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/foxholder.min.css">
 
     <!--Font Awesome-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -68,7 +69,7 @@
         <div class="row">
             <div class="navbar__category__container">
                 <div class="navbar__dropdown">
-                    <span>CATEGORIES <i class="fa fa-bars"></i></span>
+                    <span>CATEGORIES <i class="fas fa-bars"></i></span>
                     <div class="navbar__dropdown-content">
                         <p> <a href="#">MEN</a></p>
                         <p > <a href="#">WOMEN</a></p>
@@ -91,52 +92,99 @@
 </nav>
 <!--Navigation Ends -->
 
-<!-- Card contact section -->
-<section class="description__section">
-    <article class="container">
+<section class="contact-us__section">
+    <div class="container-fluid">
         <div class="row">
-            <div class="description card-raised ml-md-1 ml-lg-3 mr-lg-4 mr-md-3">
-                <div class="col-lg-4 col-md-6">
-                    <div class="description__item d-flex flex-row align-items-center justify-content-start">
-                        <i class="fa fa-phone fa-3x description__icon"></i>
-                        <div class="description__section__content">
-                            <div class="description__sub">
-                                +234 9063897470
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-sm-12 col-lg-12">
+                <h3 class="text-center mt-5 text-uppercase">Any Issues? Contact Us</h3>
+                <p class="text-center text-black-50">Please call or complete the form and someone will be in touch with you shortly.</p>
+                <div class="no__button">
+                   <i class="fa fa-mobile-phone fa-2x"></i> +234 9063897470
                 </div>
-            </div>
-            <div class="description card-raised ml-md-3 mr-lg-4 mr-md-3">
-                <div class="col-lg-4 col-md-6">
-                    <div class="description__item d-flex flex-row align-items-center justify-content-start">
-                        <i class="fa fa-envelope fa-3x description__icon"></i>
-                        <div class="description__section__content">
-                            <div class="description__sub">
-                                p.uzor99@gmail.com
-                            </div>
-                        </div>
+                <p class="text-center text-black-50 mt-2">Call our 24/7 Available Number</p>
+                <form action="" class="placehold mt-5 ml-5">
+                    <div class="form-inline">
+                    <div class="form-group col-md-6">
+                        <input id="first-input-3" class="form-control" type="text" placeholder="First Name" required />
                     </div>
-                </div>
-            </div>
-            <div class="description card-raised ">
-                <div class="col-lg-4 col-md-6">
-                    <div class="description__item d-flex flex-row align-items-center justify-content-start">
-                        <i class="fa fa-map-marker fa-3x description__icon"></i>
-                        <div class="description__section__content">
-                            <div class="description__card-text">
-                               Landmark University
-                            </div>
-                            <div class="description__sub">
-                                Omu-Aran, Kwara State
-                            </div>
-                        </div>
+                    <div class="form-group col-md-6 sp">
+                        <input id="first-input-4" class="form-control" type="text" placeholder="Last Name" required />
                     </div>
-                </div>
+                    </div>
+                    <div class="form-inline">
+                    <div class="form-group col-md-6">
+                        <label class="" for="select2"> What Issues are you facing?</label>
+                            <select id="select2" class="form-control custom-select">
+                                <option value="">Can't Login In</option>
+                            </select>
+
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="" for="select"> What Issues are you facing?</label>
+                        <select id="select" class="form-control custom-select">
+                            <option value="">Can't Login In</option>
+                        </select>
+                    </div>
+                    </div>
+                </form>
             </div>
         </div>
-    </article>
+    </div>
 </section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mt-5">
+                <h3>Tycoon</h3>
+                <p>Got any questions? Call us 24/7</p>
+                <p class="footer__tel">+234 9063897470</p>
+                <address>
+                    Landmark University
+                    <p>Omu-Aran, Kwara State</p>
+                </address>
+            </div>
+            <div class="col-lg-4 mt-5">
+                <h5>Find it fast</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Home Appliances</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 mt-5 footer__issues">
+                <h5>Any Issues?</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Returns and Refunds</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Product Support</a></li>
+                    <li><a href="#">Become a Seller</a></li>
+                </ul>
+            </div>
+            <div class="copyright_content mt-3">
+                <script>document.write(new Date().getFullYear());</script> All rights reserved |  Made with <i class="fa fa-heart" aria-hidden="true"></i> by Uzor
 
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="scripts">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/typed.min.js"></script>
+    <script src="assets/js/foxholder.min.js"></script>
+</div>
+<script>
+    jQuery('.placehold').foxholder({
+        placeholderDemo: 3, // for placeholder demo (1 - 15)
+    });
+</script>
 </body>
 </html>
