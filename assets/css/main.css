@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5 {
     color: #005cbf;
 }
 .pre-header {
-    height: 35px;
+    min-height: 35px;
     width: 100%;
     border-bottom: 1px solid #e9eaeb;
 }
