@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 165px;
+    min-height: 165px;
     border: 1px solid #e8e8e8;
     -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.1);
     -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.1);
@@ -276,9 +276,7 @@ option:hover {
 .fa-heart:hover {
     color: #005cbf;
 }
-footer {
-    background-color: rgba(217, 218, 214, 0.37);
-}
+
 address {
     color: rgba(0, 0, 0, 0.52);
     font-weight: 500;
@@ -289,3 +287,22 @@ address {
 .footer__issues {
     z-index: 99999;
 }
+@media (min-width: 320px) and (max-width: 480px){
+    .product__selected-image {
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+@media (min-width: 1024px) {
+
+}
+

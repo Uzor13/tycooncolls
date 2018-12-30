@@ -1,0 +1,46 @@
+.title {
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #4a5666;
+    font-size: 32px;
+}
+.content-page {
+    width: 900px;
+    background-color:  #fafafa;;
+    min-height: 300px;
+    padding: 30px;
+}
+.mini-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #4a5666;
+    font-size: 1.6em;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .title {
+        margin-left: 10px;
+        font-size: 30px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .content-page {
+        width: 460px;
+        margin-left: -25px;
+    }
+    .mini-title {
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 481px) and  (max-width: 575px) {
+
+}
+
+@media (min-width: 576px) and  (max-width: 767px) {
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+

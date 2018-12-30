@@ -7,6 +7,9 @@
 .fa-envelope-open-text {
     margin-left: 100px;
 }
+.faq-title {
+    margin-top: 170px!important;
+}
 .faq__accordion {
     margin-top: 80px;
 }
@@ -63,6 +66,10 @@ footer {
         width: 15rem;
         margin-left: 40px;
     }
+    .faq__accordion {
+        margin-top: 10px;
+    }
+
 }
 @media (min-width: 481px) and (max-width: 767px){
 
