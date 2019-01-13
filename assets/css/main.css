@@ -102,7 +102,7 @@ input[placeholder] {
     font-weight: 600;
     white-space: nowrap;
 }
-.fa-chevron-down {
+.fa-chevron-circle-down {
     font-weight: lighter;
     margin-left: 4px;
     margin-top: 7px;
@@ -216,8 +216,27 @@ input[placeholder] {
     color: rgba(0,0,0,0.5);
     margin-top: 3px;
 }
+.is-active {
+    -webkit-animation: animate 4s 1 steps(28) forwards;
+    -o-animation: animate 4s 1 steps(28) forwards;
+    animation: animate 4s 1 steps(28) forwards;
+}
+@keyframes animate {
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+        background-position: right;
+    }
+}
 footer {
     background-color: rgba(217, 218, 214, 0.37);
+}
+.footer__tel{
+    color: #005cbf;
 }
 
 @media (min-width: 320px) and (max-width: 480px){

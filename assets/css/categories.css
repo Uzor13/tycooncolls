@@ -1,0 +1,72 @@
+.title {
+    text-align: center;
+    background-color: #dadada;
+    min-height: 100px;
+    padding-top: 40px;
+}
+.categories__grid {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 350px auto;
+    grid-gap: 3px;
+}
+.categories__sidebar {
+    background-color: #ffffff;
+    height: 100%;
+    padding: 30px;
+}
+.categories__image {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   grid-gap: 20px;
+   align-items: stretch;
+}
+.categories__image img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+}
+.mini__title {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+ul {
+    color: #757575;
+}
+strike {
+    color: red;
+    padding-left: 20px;
+    font-size: 14px;
+}
+p {
+    color: #ffffff;
+}
+figcaption {
+   padding-top: 100px;
+}
+.like-btn {
+    background: url('../img/twitter-heart.png') no-repeat;
+    background-size: 2900%;
+    width: 70px;
+    height: 70px;
+}
+.fa-shopping-cart {
+    color: #ffffff;
+    padding-right: 30px;
+}
+.product__button {
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 170px;
+    margin-left: 20px;
+}
+.product__button:hover {
+    background-color: #ffffff;
+    color: black;
+}

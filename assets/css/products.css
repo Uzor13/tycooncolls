@@ -247,6 +247,7 @@ option:hover {
     background-color: #005cbf;
     color: white;
     cursor: pointer;
+    outline: none;
 }
 .addtocart:hover {
     background-color: #6c757d;
@@ -284,9 +285,7 @@ address {
 .footer__tel{
     color: #005cbf;
 }
-.footer__issues {
-    z-index: 99999;
-}
+
 @media (min-width: 320px) and (max-width: 480px){
     .product__selected-image {
         margin-left: 10px;
