@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html {
+    min-height: 100%;
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: linear-gradient(to bottom right, #3D4258, #6670A0, #9688B4);
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 400px;
+    background: rgba(10, 20, 30, .85);
+}
+
+nav::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    float: left;
+    position: relative;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background: rgba(10, 20, 30, .9);
+}
+
+nav ul li a:focus {
+    color: white;
+}
+
+nav ul li a:not(:only-child)::after {
+    padding-left: 4px;
+    content: ' ▾';
+}
+
+nav ul li ul li {
+    min-width: 190px;
+}
+
+nav ul li ul li a {
+    background: transparent;
+    color: #4a5666;
+    border-bottom: 1px solid #DDE0E7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+    background: #e7e9ef;
+    color: #111;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    margin-top: 6px;
+    background: linear-gradient(to bottom right, white, #F8F8F8) !important;
+    box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+
+.dropdown::after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid white;
+}
+
+.dropdown:hover::after {
+    border-bottom: 8px solid #F6F7F9;
+}
+    </style>
+</head>
+<body>
+        <h1>Dropdown</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#!">Dropdown</a>
+                    <ul class="dropdown">
+                        <li><a href="#!">One</a></li>
+                        <li><a href="#!">Two</a></li>
+                        <li><a href="#!">Three</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!">Not dropdown</a>
+            </ul>
+        </nav>
+        <script src="assets/js/jquery.min.js"></script>
+
+        <script>
+        $("html").click(function() {
+    $(".dropdown").hide();
+});
+
+$("nav ul li a:not(:only-child)").click(function(e) {
+    $(this).siblings(".dropdown").toggle();
+
+    $(".dropdown").not($(this).siblings()).hide();
+    e.stopPropagation();
+});
+        </script>
+</body>
+</html>

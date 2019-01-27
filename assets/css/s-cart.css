@@ -27,11 +27,11 @@
     margin-top: 30px;
     margin-right: 60px;
 }
-.delete-btn, .like-btn {
+.delete-bttn, .like-bttn {
     display: inline-block;
     cursor: pointer;
 }
-.delete-btn {
+.delete-bttn {
     position: absolute;
     top: 20px;
     left: 0;
@@ -39,7 +39,7 @@
     height: 17px;
     background: url("../img/delete-icn.svg")no-repeat center;
 }
-.like-btn {
+.like-bttn {
     position: absolute;
     top: 9px;
     left: 15px;
@@ -101,17 +101,17 @@
     color: #43484d;
     font-weight: 300;
 }
-button[class*=btn] {
+button[class*=bttn] {
     width: 30px;
     height: 30px;
     border-radius: 6px;
     border: none;
     cursor: pointer;
 }
-.plus-btn {
+.plus-bttn {
     margin-bottom: 3px;
 }
-.minus-btn {
+.minus-bttn {
     margin-top: 2px;
 }
 button:focus, input:focus {

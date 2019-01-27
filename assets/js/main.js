@@ -1,5 +1,6 @@
+
 $('.like-btn').on('click', function() {
-    $(this).toggleClass('is-active');
+    $(this).toggleClass('');
 });
 $('.minus-btn').on('click', function(e) {
     e.preventDefault();
@@ -33,9 +34,9 @@ noUiSlider.create(nls, {
     connect: true,
     behaviour: 'tap',
     tooltips: [true, true],
-    start: [10000, 45000],
+    start: [1000, 25000],
     range: {
-        'min': [10000],
+        'min': [1000],
         'max': [100000]
     }
 });
@@ -43,3 +44,5 @@ var nodes = [document.getElementById('lower'), document.getElementById('upper')]
 nonLinearSlider.noUiSlider.on('update', function (values, handle, unencoded, isTap, positions) {
     nodes[handle].innerHTML = '&#8358;' + values[handle] + ', ' + positions[handle].toFixed(2) + '%';
 });
+
+

@@ -238,19 +238,27 @@ option:hover {
     background-color: #f7f7f7;
 }
 .addtocart {
-    width: 140px;
-    height: 43px;
+    width: 150px;
+    height: 47px;
     margin-top: 17px;
     margin-right: 135px;
     border-radius: 20px;
-    border: 1px solid transparent;
+    border: none;
+    position: relative;
+    box-shadow: 0 6px #024d9e;
     background-color: #005cbf;
     color: white;
     cursor: pointer;
     outline: none;
 }
 .addtocart:hover {
-    background-color: #6c757d;
+    box-shadow: 0 4px #024d9e;
+    top: 2px;
+}
+.addtocart:active {
+    box-shadow: none;
+    outline: none;
+    top: 6px;
 }
 .wishlist {
     display: inline-block;

@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/assets/css/contact.css" line="110" mnemonic="5" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="568c14a5-46af-4dcf-9046-db6fde077a41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/categories.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/foxholder.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/foxholder.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/products.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/s-cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/s-cart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/s-cart.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,22 +30,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tycooncolls" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s-cart.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-250">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="2024">
+              <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="47" column="94" selection-start-line="47" selection-start-column="94" selection-end-line="47" selection-end-column="94" />
+            <state relative-caret-position="424">
+              <caret line="176" column="27" lean-forward="true" selection-start-line="176" selection-start-column="27" selection-end-line="176" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -44,7 +57,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/s-cart.css">
+        <entry file="file://$PROJECT_DIR$/assets/css/contact.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -73,6 +95,10 @@
       <find>cd</find>
       <find>raised</find>
       <find>cd-add-to-cart</find>
+      <find>input[type=</find>
+      <find>input</find>
+      <find>.foxholder-form__input--effect-3</find>
+      <find>width</find>
     </findStrings>
     <replaceStrings>
       <replace>navbar__dropdown-wrapper</replace>
@@ -93,22 +119,26 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/assets/css/faqs.css" />
         <option value="$PROJECT_DIR$/faqs.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/privacy.html" />
         <option value="$PROJECT_DIR$/assets/css/privacy.css" />
         <option value="$PROJECT_DIR$/terms.html" />
         <option value="$PROJECT_DIR$/assets/css/terms.css" />
         <option value="$USER_HOME$/Downloads/add-to-cart-interaction-master/css/style.css" />
-        <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/assets/css/products.css" />
-        <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/assets/cart.html" />
         <option value="$PROJECT_DIR$/assets/css/cart.css" />
         <option value="$PROJECT_DIR$/cart.html" />
         <option value="$PROJECT_DIR$/s-cart.html" />
-        <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/assets/css/s-cart.css" />
+        <option value="$PROJECT_DIR$/products.html" />
+        <option value="$PROJECT_DIR$/assets/css/categories.css" />
+        <option value="$PROJECT_DIR$/categories.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/assets/css/foxholder.min.css" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/assets/css/contact.css" />
       </list>
     </option>
   </component>
@@ -123,37 +153,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="tycooncolls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tycooncolls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tycooncolls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tycooncolls" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tycooncolls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tycooncolls" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../60 MeatKing" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/CSS Practice/Gallery" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -170,6 +176,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="contact.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tycooncolls/contact.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.contact.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -194,18 +210,21 @@
       <workItem from="1546945689294" duration="14079000" />
       <workItem from="1547059746471" duration="112000" />
       <workItem from="1547367897501" duration="1856000" />
+      <workItem from="1548186602631" duration="36500000" />
+      <workItem from="1548524839619" duration="8554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74132000" />
+    <option name="totallyTimeSpent" value="119186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2527881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.3296131" />
       <window_info id="DB Browser" order="3" weight="0.32955405" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -275,16 +294,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/e-shop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3875">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/e-shop/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -381,13 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Material/assets/css/material-kit.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="251600" lean-forward="true" selection-start-line="13" selection-start-column="251527" selection-end-line="13" selection-end-column="251600" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -402,16 +404,6 @@
             <caret line="195" column="11" lean-forward="true" selection-start-line="195" selection-start-column="11" selection-end-line="195" selection-end-column="11" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,34 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="172" column="31" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/privacy.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
           <caret line="61" lean-forward="true" selection-start-line="28" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/products.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="283" column="1" lean-forward="true" selection-start-line="283" selection-start-column="1" selection-end-line="283" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="223" column="1" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -537,32 +505,124 @@
         <state relative-caret-position="-1090" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+    <entry file="file://$PROJECT_DIR$/s-cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="736">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/s-cart.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/s-cart.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/products.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="192">
+          <caret line="284" column="17" lean-forward="true" selection-start-line="284" selection-start-column="17" selection-end-line="284" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="47" column="94" selection-start-line="47" selection-start-column="94" selection-end-line="47" selection-end-column="94" />
+        <state relative-caret-position="237">
+          <caret line="82" column="61" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#i#0;n#a#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/categories.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="187" column="10" lean-forward="true" selection-start-line="153" selection-start-column="4" selection-end-line="187" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Material/assets/css/material-kit.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="13" column="20154" selection-start-line="13" selection-start-column="20154" selection-end-line="13" selection-end-column="20154" />
+          <folding>
+            <element signature="e#51547#51750#2" expanded="true" />
+            <element signature="e#51974#52126#2" expanded="true" />
+            <element signature="e#52593#52742#2" expanded="true" />
+            <element signature="e#53009#53175#1" expanded="true" />
+            <element signature="e#61164#61407#2" expanded="true" />
+            <element signature="e#62242#62491#2" expanded="true" />
+            <element signature="e#84535#84728#2" expanded="true" />
+            <element signature="e#84774#84967#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/foxholder.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="19081" selection-start-line="1" selection-start-column="19081" selection-end-line="1" selection-end-column="19081" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Frameworks/foxholder-master/src/foxholder.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Frameworks/foxholder-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="295">
+            <caret line="68" column="34" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Frameworks/foxholder-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9416">
+          <caret line="135" column="61" lean-forward="true" selection-start-line="135" selection-start-column="61" selection-end-line="135" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="176" column="27" lean-forward="true" selection-start-line="176" selection-start-column="27" selection-end-line="176" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
