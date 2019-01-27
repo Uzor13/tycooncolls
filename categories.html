@@ -51,7 +51,7 @@
             <input type="search" class="content-header__search" placeholder="Search for products or enter a keyword">
             <span><button class="content-header__searchbtn">SEARCH</button></span>
             <div class="content-header__dropdown">
-                <span id="myAccount">My Account<i class="fa fa-chevron-down"></i></span>
+                <span id="myAccount">My Account<i class="fas fa-chevron-down"></i></span>
                 <div class="content-header__dropdown-content">
                     <p><i class="fas fa-heart-o "></i> <a href="#">MY WISHLIST</a></p>
                     <p ><i class="fas fa-user-o"></i> <a href="#">MY ACCOUNT</a></p>
@@ -62,12 +62,13 @@
                 </div>
             </div>
             <div class="content-header__cart">
-                <i class="fas fa-shopping-cart fa-2x"></i><span>  Cart</span>
+                <i class="fas fa-shopping-bag fa-2x"></i><span><a href="s-cart.html"> Cart</a></span>
             </div>
         </div>
     </div>
-    <!-- Navigation Starts -->
+
 </header>
+<!-- Navigation Starts -->
 <nav class="navbar navbar-expand-lg navbar__bg shadow desktopNav">
     <div class="container">
         <div class="row">
@@ -95,93 +96,153 @@
     </div>
 </nav>
 <div class="mobileNav">
-    <nav class="navbar navbar-expand-lg navbar__bg shadow navbar-dark fixed-top">
-        <a class="navbar-brand" href="index.html">TYCOON</a>
-        <a class="navbar-text ml-auto mr-5 text-light" href="index.html"><i class="fas fa-shopping-cart" style="color: #212529;"></i> Cart</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile" aria-controls="mobile" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <!--<nav class="navbar navbar-expand-lg navbar__bg shadow navbar-dark fixed-top">-->
+        <!--<a class="navbar-brand" href="index.html">TYCOON</a>-->
+        <!--<a class="navbar-text ml-auto mr-5 text-light" href="index.html"><i class="fas fa-shopping-cart" style="color: #212529;"></i> Cart</a>-->
+        <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile" aria-controls="mobile" aria-expanded="false" aria-label="Toggle navigation">-->
+            <!--<span class="navbar-toggler-icon"></span>-->
+        <!--</button>-->
 
-        <div class="collapse navbar-collapse" id="mobile">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">SHOP</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="categories" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        CATEGORIES
-                    </a>
-                    <div class="dropdown-menu navbar__bg shadow border-light" aria-labelledby="categories">
-                        <a class="dropdown-item text-light" href="#">Men</a>
-                        <a class="dropdown-item text-light" href="#">Women</a>
-                        <a class="dropdown-item text-light" href="#">Accessories</a>
-                        <a class="dropdown-item text-light" href="#">Shoes</a>
-                        <a class="dropdown-item text-light" href="#">Home Appliances</a>
-                        <a class="dropdown-item text-light" href="#">Gadgets</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="myAccountDrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        MY ACCOUNT
-                    </a>
-                    <div class="dropdown-menu navbar__bg shadow border-light" aria-labelledby="myAccountDrop">
-                        <a class="dropdown-item text-light" href="#">My Wishlist</a>
-                        <a class="dropdown-item text-light" href="#">My Account</a>
-                        <a class="dropdown-item text-light" href="#">Checkout</a>
-                        <a class="dropdown-item text-light" href="#">My Orders</a>
-                        <a class="dropdown-item text-light" href="#">Log in</a>
-                        <a class="dropdown-item text-light" href="#">Create an Account</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
-            </form>
+        <!--<div class="collapse navbar-collapse" id="mobile">-->
+            <!--<ul class="navbar-nav mr-auto mt-2 mt-lg-0">-->
+                <!--<li class="nav-item active">-->
+                    <!--<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">ABOUT</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">SHOP</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">CONTACT</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item dropdown">-->
+                    <!--<a class="nav-link dropdown-toggle" href="#" id="categories" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                        <!--CATEGORIES-->
+                    <!--</a>-->
+                    <!--<div class="dropdown-menu navbar__bg shadow border-light" aria-labelledby="categories">-->
+                        <!--<a class="dropdown-item text-light" href="#">Men</a>-->
+                        <!--<a class="dropdown-item text-light" href="#">Women</a>-->
+                        <!--<a class="dropdown-item text-light" href="#">Accessories</a>-->
+                        <!--<a class="dropdown-item text-light" href="#">Shoes</a>-->
+                        <!--<a class="dropdown-item text-light" href="#">Home Appliances</a>-->
+                        <!--<a class="dropdown-item text-light" href="#">Gadgets</a>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li class="nav-item dropdown">-->
+                    <!--<a class="nav-link dropdown-toggle" href="#" id="myAccountDrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                        <!--MY ACCOUNT-->
+                    <!--</a>-->
+                    <!--<div class="dropdown-menu navbar__bg shadow border-light" aria-labelledby="myAccountDrop">-->
+                        <!--<a class="dropdown-item text-light" href="#">My Wishlist</a>-->
+                        <!--<a class="dropdown-item text-light" href="#">My Account</a>-->
+                        <!--<a class="dropdown-item text-light" href="#">Checkout</a>-->
+                        <!--<a class="dropdown-item text-light" href="#">My Orders</a>-->
+                        <!--<a class="dropdown-item text-light" href="#">Log in</a>-->
+                        <!--<a class="dropdown-item text-light" href="#">Create an Account</a>-->
+                    <!--</div>-->
+                <!--</li>-->
+            <!--</ul>-->
+            <!--<form class="form-inline my-2 my-lg-0">-->
+                <!--<input class="form-control mr-sm-2" type="search" placeholder="Search">-->
+                <!--<button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>-->
+            <!--</form>-->
 
+        <!--</div>-->
+    <!--</nav>-->
+
+    <nav>
+        <div class="toggle-btn__container" id="toggle">
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+        </div>
+        <div class="overlay" id="overlay">
+            <div class="overlay__menu">
+                <ul class="mobile-ul">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="categories.html">SHOP</a></li>
+                    <li><a href="#">ACCOUNT</a></li>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categories" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            CATEGORIES
+                        </a>
+                        <div class="dropdown-menu navbar__bg shadow border-light" aria-labelledby="categories">
+                            <a class="dropdown-item text-light" href="#">Men</a>
+                            <a class="dropdown-item text-light" href="#">Women</a>
+                            <a class="dropdown-item text-light" href="#">Accessories</a>
+                            <a class="dropdown-item text-light" href="#">Shoes</a>
+                            <a class="dropdown-item text-light" href="#">Home Appliances</a>
+                            <a class="dropdown-item text-light" href="#">Gadgets</a>
+                        </div>
+                    </li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input type="search" class="mobile__content-header__search" placeholder="Search for products or enter a keyword">
+                        <span><button class="mobile__content-header__searchbtn">SEARCH</button></span>
+                    </form>
+                </ul>
+            </div>
         </div>
     </nav>
+
+
 </div>
 <!--Navigation Ends -->
 
 <section class="categories__section">
+        <nav aria-label="breadcrumb">
+                <ol class="breadcrumb m-auto">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active text-primary" aria-current="page">Women's Categories</li>
+                </ol>
+              </nav>
     <div class="title">
-        <h2>WOMEN</h2>
+        <h2>WOMEN'S FASHION</h2>
     </div>
     <section class="categories__grid">
         <div class="categories__sidebar">
             <h4 class="mini__title">Categories</h4>
             <ul class="list-unstyled">
-                <li>Men</li>
-                <li>Women</li>
-                <li>Accessories</li>
-                <li>Shoes</li>
-                <li>Home Appliances</li>
-                <li>Gadgets</li>
+                <li><a href="#">Men</a></li>
+                <li class="cat__active"><a href="#">Women</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Home Appliances</a></li>
+                <li><a href="#">Gadgets</a></li>
             </ul>
-            <h4 class="mini__title">Filter</h4>
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">N25,000</div>
-            </div>
-            <h5 class="pt-4">Price Range</h5>
+            <h4 class="mini__title">Filter By</h4>
+            
+            <h5>Price Range</h5>
 
             <div class="mt-30">
                 <span id="lower"></span>
                 <div id="priceSlider"></div>
                 <span id="upper"></span>
             </div>
+            <h5 class="pt-5">Brands</h5>
+            <ul class="list-unstyled">
+                    <li><a href="#">Nike</a></li>
+                    <li><a href="#">Zara</a></li>
+                    <li><a href="#">Macy's</a></li>
+                    <li><a href="#">Zaron</a></li>
+                    <li><a href="#">American Eagle</a></li>
+                    <li><a href="#">Chanel</a></li>
+                </ul>
+                <h5 class="pt-5">Brands</h5>
+                <ul class="list-unstyled">
+                        <li><a href="#">Nike</a></li>
+                        <li><a href="#">Zara</a></li>
+                        <li><a href="#">Macy's</a></li>
+                        <li><a href="#">Zaron</a></li>
+                        <li><a href="#">American Eagle</a></li>
+                        <li><a href="#">Chanel</a></li>
+                    </ul>
         </div>
         <div class="categories__image">
-            <figure class="imghvr-shutter-in-out-diag-1">
+            <figure class="imghvr-shutter-in-out-diag-2">
             <img src="assets/img/product-04.jpg" class="img-fluid" alt="">
             <figcaption>
                 <h3 class="animated fadeInDown delay-1s text-center">Trench Coat</h3>
@@ -204,7 +265,7 @@
                         
                         </div>
                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                    <button type="button" class="animated slideInDown delay-1s product__button" data-toggle="modal" data-target="#modal-product">
+                    <button type="button" class="animated slideInDown delay-1s product__button">
                         View Product
                     </button>
                     <div class="modal fade" id="modal-product" tabindex="-1" role="dialog" aria-labelledby="modal-prod" aria-hidden="true">
@@ -212,7 +273,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="modal-prod">Product</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -376,6 +437,21 @@
                                 <h5 class="text-center mt-3">Vans Sneakers</h5>
                     <p class="text-center"><span>N7,000</span></p>
                         </figure>
+                        <nav aria-label="Page navigation example">
+                                <ul class="pagination pagination-lg align-content-center">
+                                  <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                  </li>
+                                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">50</a></li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                  </li>
+                                </ul>
+                              </nav>
         </div>
     </section>
 </section>
@@ -428,8 +504,33 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/typed.min.js"></script>
+    <script src="assets/vendor/TweenMax.min.js"></script>
     <script type="text/javascript">
-        
+        var t1 = new TimelineMax({paused: true});
+        t1.to (".one", 0.8, {
+            y: 6,
+            rotation: 45,
+            ease: Expo.easeInOut
+        });
+        t1.to (".two", 0.8, {
+            y: -6,
+            rotation: -45,
+            ease: Expo.easeInOut,
+            delay: -0.8
+        });
+
+        t1.to(".menu", 2, {
+            top: "0%",
+            ease: Expo.easeInOut,
+            delay: -1
+        });
+
+        t1.staggerFrom(".menu ul li", 2, {x: -200, opacity: 0, ease: Expo.easeOut}, 0.3);
+        t1.reverse();
+        $(document).on("click", ".toggle-btn", function () {
+            t1.reversed(!t1.reversed());
+        });
+
     </script>
     </div>
 

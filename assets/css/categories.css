@@ -4,6 +4,16 @@
     min-height: 100px;
     padding-top: 40px;
 }
+.cat__active {
+    background-color: #005cbf;
+    width: 70px;
+    padding: 5px;
+    border-radius: 4px;
+    height: 30px;
+}
+.cat__active a {
+     color: #ffffff;
+}
 .categories__grid {
     height: 100%;
     display: grid;
@@ -31,11 +41,11 @@
     padding-bottom: 30px;
     padding-top: 30px;
 }
-ul {
+ul a {
     color: #757575;
 }
 strike {
-    color: red;
+    color: rgb(241, 50, 50);
     padding-left: 20px;
     font-size: 14px;
 }
@@ -50,32 +60,38 @@ figcaption {
     background-size: 2900%;
     width: 70px;
     height: 70px;
+    position: absolute;
+    top: 173px;
+    left: 50%;
 }
 .fa-shopping-cart {
     color: #ffffff;
     padding-right: 30px;
+    position: absolute;
+    top: 200px;
+    left: 37%;
+    font-size: 18px;
 }
 .product__button {
-    width: 140px;
-    height: 40px;
+    position: absolute;
     border-radius: 6px;
     border: 2px solid white;
     color: white;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 170px;
-    margin-left: 20px;
+    top: 290px;
+    left: 26%;
+    padding: 10px;
 }
 .product__button:hover {
-    background-color: #ffffff;
-    color: black;
+    background: #1b1e21;
+    color: white;
 }
-
 .noUi-horizontal{
     height: 5px;
 }
 .noUi-connect{
-    background: #24479f;
+    background: #005cbf;
     border: none;
 }
 .noUi-horizontal .noUi-handle {
@@ -85,7 +101,7 @@ figcaption {
     box-shadow: none;
     border: none;
     top: -7px;
-    background: #24479f;
+    background: #005cbf;
     outline: none !important;
 }
 .noUi-handle:after, .noUi-handle:before{
@@ -115,3 +131,35 @@ figcaption {
 .mt-30{
     margin-top: 30px;
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+    .categories__grid {
+        height: 100%;
+        display: grid;
+        grid-template-rows: 350px auto;
+        grid-template-columns: 100%;
+        grid-gap: 350px;
+    }
+    .desktopNav {
+        display: none;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .categories__grid {
+        height: 100%;
+        display: grid;
+        grid-template-rows: 350px auto;
+        grid-template-columns: 100%;
+        grid-gap: 350px;
+    }
+    .desktopNav {
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+
